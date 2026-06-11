@@ -2,25 +2,24 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end
 
-local URL_BITE_BY_NIGHT    = "https://raw.githubusercontent.com/zxcursedsocute/Bite-By-Night/refs/heads/main/lua"
-local URL_WORLD_OF_TROLLGE = "https://raw.githubusercontent.com/zxcursedsocute/World-of-Trollge-script/refs/heads/main/lua"
-local URL_FORSAKEN         = "https://raw.githubusercontent.com/zxcursedsocute/Forsaken-Script/refs/heads/main/lua"
-local URL_TROLLGE_REBORN   = "https://raw.githubusercontent.com/zxcursedsocute/Trollge-Incident-Fights-Reborn2-script/refs/heads/main/lua"
-local URL_MULTIVERSE       = "https://raw.githubusercontent.com/zxcursedsocute/Trollge-Multiverse/refs/heads/main/lua"
-local URL_FISH_IT          = "https://raw.githubusercontent.com/zxcursedsocute/Fish-It/refs/heads/main/lua"
-local URL_DEFAULT          = "https://raw.githubusercontent.com/zxcursedsocute/CursedHub/refs/heads/main/Main"
+local URL_BITE_BY_NIGHT    = "https://raw.githubusercontent.com/Luqas137/"
+local URL_WORLD_OF_TROLLGE = "https://raw.githubusercontent.com/Luqas137/"
+local URL_FORSAKEN         = "https://raw.githubusercontent.com/Luqas137/"
+local URL_TROLLGE_REBORN   = "https://raw.githubusercontent.com/Luqas137/"
+local URL_MULTIVERSE       = "https://raw.githubusercontent.com/Luqas137/"
+local URL_FISH_IT          = "https://raw.githubusercontent.com/Luqas137/"
+local URL_DEFAULT          = "https://raw.githubusercontent.com/Luqas137/"
 
 local scriptMap = {
-    [94641783649173] = URL_WORLD_OF_TROLLGE,
-    [75661637882183] = URL_WORLD_OF_TROLLGE,
-    [18687417158]    = URL_FORSAKEN,
-    [83645629621104] = URL_FORSAKEN,
-    [12377995562]    = URL_TROLLGE_REBORN,
-    [12801608913]    = URL_TROLLGE_REBORN,
-    [13028864053]    = URL_TROLLGE_REBORN,
-    [13946738101]    = URL_MULTIVERSE,
-    [121864768012064] = URL_FISH_IT,
-    [70845479499574] = URL_BITE_BY_NIGHT
+    [94641783649173] = URL_Not_finished
+    [75661637882183] = URL_Not_finished
+    [18687417158]    = URL_Not_finished
+    [12377995562]    = URL_Not_finished
+    [12801608913]    = URL_Not_finished
+    [13028864053]    = URL_Not_finished
+    [13946738101]    = URL_Not_finished
+    [121864768012064] = URL_Not_finished
+    [70845479499574] = URL_Not_finished
 }
 
 local targetUrl = scriptMap[game.PlaceId] or URL_DEFAULT

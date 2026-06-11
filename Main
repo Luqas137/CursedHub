@@ -1,18 +1,18 @@
-local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/UI-Library/refs/heads/main/UI-Library.txt"))()
+local gui = loadstring(game:HttpGet("https://raw.githubusercontent.com/Luqas137/"))()
 
-local Window = gui.CreateWindow("CursedHub - Main  ","",'590','v 1.0')
+local Window = gui.CreateWindow("STX HUB - Main  ","",'590','v 1.0')
 
 Window:SetSavePath("zxcursedsocute", "Trollge Incident Fights Reborn.json")
 
 local Discord = Window:AddTab("Info/Discord","Quests")
 
-Discord:AddParagraph("CursedHub","CursedHub is a free public script hub for Roblox")
+Discord:AddParagraph("STX HUB, is a free public script hub for Roblox")
 
 Discord:AddButton({
     Name = "Copy Discord Link",
     Description = "for suggestions and bugs",
     Callback = function()
-        setclipboard("https://discord.gg/N9CYA7ma")
+        setclipboard("making a discord wait untill we do it")
         windows:Notification({
             Name = 'Notfication',
             Description = 'Text successfully copied to clipboard',
@@ -25,55 +25,44 @@ Discord:AddButton({
 local ChooseGameTab = Window:AddTab("Scripts","Misc")
 
 ChooseGameTab:AddButton({
-    Name = "Forsaken",
+    Name = "MM2",
     Description = "",
     Callback = function()
 		pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Forsaken-Script/refs/heads/main/lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Luqas137/))()
 		end)
         Window:Destroy()
     end
 })
 
 ChooseGameTab:AddButton({
-    Name = "Fish it",
+    Name = "Not finished wait",
     Description = "",
     Callback = function()
 		pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Fish-It/refs/heads/main/lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Luqas137/"))()
 		end)
         Window:Destroy()
     end
 })
 
 ChooseGameTab:AddButton({
-    Name = "Trollge Multiverse",
+    Name = "Not finished wait ",
     Description = "",
     Callback = function()
 		pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Trollge-Multiverse/refs/heads/main/lua"))()
-		end)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Luqas137/))()
+
         Window:Destroy()
     end
 })
 
 ChooseGameTab:AddButton({
-    Name = "Trollge Incident Fights Reborn",
+    Name = "Not Finished wait
     Description = "",
     Callback = function()
 		pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/Trollge-Incident-Fights-Reborn2-script/refs/heads/main/lua"))()
-		end)
-        Window:Destroy()
-    end
-})
-
-ChooseGameTab:AddButton({
-    Name = "World Of Trollge",
-    Description = "",
-    Callback = function()
-		pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcursedsocute/World-of-Trollge-script/refs/heads/main/lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent./Luqas137/"))()
 		end)
         Window:Destroy()
     end
